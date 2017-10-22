@@ -45,6 +45,7 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+mod1+j [class="discord"] scratchpad show
 bindsym $mod+mod1+m [class="Google Play Music Desktop Player"] scratchpad show
 bindsym $mod+mod1+k [class="URxvt"] scratchpad show
+bindsym $mod+mod1+l exec xlock -mode maze -mono -usefirst
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -199,4 +200,5 @@ exec --no-startup-id lxqt-notificationd
 exec --no-startup-id urxvtd -q -f -o
 #exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/Rainbow\ Tubes\ Final.png
 #exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/KimiFallingStars.png
-exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/723250_sagirihrm.png
+#exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/723250_sagirihrm.png
+exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/cirno-minimal.jpg
