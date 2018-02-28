@@ -7,7 +7,7 @@ URxvt.internalBorder: 8
 URxvt.cursorUnderline: true
 !URxvt.cursorBlink: true
 
-!URxvt*.transparent: true
+URxvt*.transparent: true
 !URxvt*.shading: 15
 URxvt*.depth: 32
 URxvt*.background: rgba:2000/2000/2000/c800
