@@ -27,7 +27,10 @@ setopt appendhistory autocd extendedglob
 unsetopt beep nomatch notify
 bindkey -v
 # End of lines configured by zsh-newuser-install
-
+# Go Stuff
+export PATH="$PATH:/home/mikey/go/bin"
+export GOPATH="/home/mikey/go"
+# End Go Stuff
 # Prompt Lines
 
 RPROMPT="[%F{blue}%*%f]"
