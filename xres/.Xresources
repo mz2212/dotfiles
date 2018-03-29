@@ -7,7 +7,7 @@ URxvt.internalBorder: 8
 URxvt.cursorUnderline: true
 !URxvt.cursorBlink: true
 
-URxvt*.transparent: true
+URxvt*.transparent: false
 !URxvt*.shading: 15
 URxvt*.depth: 32
 URxvt*.background: rgba:2000/2000/2000/c800
@@ -40,7 +40,8 @@ URxvt*letterSpace: -1
 !URxvt*lineSpace: 2
 
 ! -- perl
-URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+!URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+URxvt.perl-ext-common: default,matcher,tabbedex,clipboard,vtwheel
 URxvt.keysym.Mod4-v: perl:clipboard:paste
 !URxvt.url-launcher: /usr/local/bin/firefox-nightly
 URxvt.matcher.button: 1
@@ -61,6 +62,7 @@ urxvt*matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
 !URxvt.tabbed.tabbar-bg: 0
 !URxvt.tabbed.tab-fg: 15
 !URxvt.tabbed.tab-bg: 0
+URxvt.tabbed.autohide: true
 
 ! made w/ http://terminal.sexy/
 ! special
