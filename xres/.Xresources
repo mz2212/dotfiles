@@ -111,3 +111,5 @@ rofi.color-window: argb:84111113, #6f67e6, #111113
 rofi.color-normal: argb:60000000, #cecfd1, argb:5a111113, argb:b7111113, #cecfd1
 rofi.color-active: argb:60000000, #cecfd1, argb:7c111113, argb:c7111113, #cecfd1
 rofi.color-urgent: argb:63d54a56, #cecfd1, argb:a0d55f69, argb:baf66a79, #cecfd1
+rofi.modi: window,run,ssh,drun
+

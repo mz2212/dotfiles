@@ -348,7 +348,8 @@ globalkeys = gears.table.join(
     awful.key({}, "XF86AudioLowerVolume", APW.Down),
     awful.key({}, "XF86AudioMute", APW.ToggleMute),
     -- Rofi
-    awful.key({ modkey }, "d", function() awful.spawn("rofi -show run") end),
+    awful.key({ modkey }, "d", function() awful.spawn("rofi -show drun") end),
+    awful.key({ modkey }, "f", function() awful.spawn("rofi -show run") end),
     -- Scratchpad
     awful.key({ modkey }, "`", function() scratch.toggle("urxvtc -name scratch-term", { instance = "scratch-term" }) end)
 )

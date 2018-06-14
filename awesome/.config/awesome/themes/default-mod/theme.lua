@@ -11,24 +11,24 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "sans 6"
+theme.font          = "Source Code Pro 6.7"
 
-theme.bg_normal     = "#15161d"
-theme.bg_focus      = "#2a4552"
-theme.bg_urgent     = "#aad1b0"
-theme.bg_minimize   = theme.bg_normal
+theme.bg_normal     = "#252525"
+theme.bg_focus      = "#3c2a73"
+theme.bg_urgent     = "#ff7226"
+theme.bg_minimize   = "#698fbc"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#efeee8"
-theme.fg_focus      = "#efeee8"
+theme.fg_normal     = "#eee"
+theme.fg_focus      = "#e7e7e7"
 theme.fg_urgent     = "#15161d"
 theme.fg_minimize   = "#efeee8"
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(1)
-theme.border_normal = "#15161d"
-theme.border_focus  = "#2a4552"
-theme.border_marked = "#efeee8"
+theme.border_normal = "#151515"
+theme.border_focus  = "#3c2a73"
+theme.border_marked = "#ff7226"
 
 -- There are other variable sets
 -- overriding the default one when
@@ -46,10 +46,10 @@ theme.border_marked = "#efeee8"
 -- Generate taglist squares:
 local taglist_square_size = dpi(4)
 theme.taglist_squares_sel = theme_assets.taglist_squares_sel(
-    taglist_square_size, theme.fg_normal
+    taglist_square_size, theme.fg_focus
 )
 theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(
-    taglist_square_size, theme.fg_normal
+    taglist_square_size, theme.fg_focus
 )
 
 -- Variables set for theming notifications:
@@ -97,7 +97,8 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "/home/mikey/Pictures/wallpapers/6cHeAzC.jpg"
+-- theme.wallpaper = "/home/mikey/Pictures/wallpapers/6cHeAzC.jpg"
+theme.wallpaper = "/home/mikey/Pictures/wallpapers/9c5a0baf5c864a3e0d8271bac638e7bbe9f7bc3d.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"

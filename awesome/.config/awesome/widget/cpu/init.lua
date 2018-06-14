@@ -13,8 +13,8 @@ local wibox = require("wibox")
 
 local cpugraph_widget = wibox.widget {
     max_value = 100,
-    color = "#2a4552",
-    background_color = "#15161d",
+    color = "#1d3",
+    background_color = "#151515",
     forced_width = 50,
     step_width = 2,
     step_spacing = 1,
@@ -39,9 +39,9 @@ watch("cat /proc/stat | grep '^cpu '", 1,
         local diff_usage = (1000 * (diff_total - diff_idle) / diff_total + 5) / 10
 
         if diff_usage > 80 then
-            widget:set_color('#ff4136')
+            widget:set_color('#e31')
         else
-            widget:set_color('#74aeab')
+            widget:set_color('#1d3')
         end
 
         widget:add_value(diff_usage)

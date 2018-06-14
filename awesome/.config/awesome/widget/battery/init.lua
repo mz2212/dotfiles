@@ -113,7 +113,7 @@ function battery_widget:init(args)
     self.limits = args.limits or {
         { 25, "red"   },
         { 50, "orange"},
-        {100, "green" }
+        {100, "#1d5" }
     }
 
     self.widget_text = args.widget_text or (
